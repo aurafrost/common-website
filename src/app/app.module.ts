@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FrostyInputComponent } from './components/frosty-input/frosty-input.component';
+import { FrostyButtonComponent } from './components/frosty-button/frosty-button.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FrostyInputComponent,
+    FrostyButtonComponent
   ],
   imports: [
     BrowserModule,
