@@ -12,6 +12,7 @@ import { FrostyImageComponent } from './components/frosty-image/frosty-image.com
 import { FrostyHomeComponent } from './pages/frosty-home/frosty-home.component';
 import { FrostyRegistrationComponent } from './pages/frosty-registration/frosty-registration.component';
 import { FrostyLoginComponent } from './pages/frosty-login/frosty-login.component';
+import { FrostyErrorPageComponent } from './pages/frosty-error-page/frosty-error-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FrostyLoginComponent } from './pages/frosty-login/frosty-login.componen
     FrostyImageComponent,
     FrostyHomeComponent,
     FrostyRegistrationComponent,
-    FrostyLoginComponent
+    FrostyLoginComponent,
+    FrostyErrorPageComponent
   ],
   imports: [
     BrowserModule,
