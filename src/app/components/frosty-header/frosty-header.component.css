@@ -1,0 +1,9 @@
+.header-container {
+    background-color: #82D1F1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: -3.125rem;
+    padding: 2rem;
+}

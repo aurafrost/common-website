@@ -1,0 +1,11 @@
+.footer-container {
+    background-color: #82D1F1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}

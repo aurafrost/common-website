@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'frosty-button',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./frosty-button.component.css']
 })
 export class FrostyButtonComponent implements OnInit {
+  @Input() buttonText: string;
+  @Input() redirectTarget: string;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  redirect(): void {
+    if (this.redirectTarget) {
+      this.router.navigate([this.redirectTarget]);
+    }
+  }
 }

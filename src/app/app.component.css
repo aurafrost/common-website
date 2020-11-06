@@ -1,0 +1,16 @@
+.frosty-container {
+    padding: 50px 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-view {
+    background-color: #CBF3F9;
+    text-align: center;
+    width: 100%;
+    min-height: 100%;
+    margin-top: 3.125rem;
+}

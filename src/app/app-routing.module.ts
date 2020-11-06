@@ -7,9 +7,10 @@ import { FrostyRegistrationComponent } from './pages/frosty-registration/frosty-
 
 const routes: Routes = [
   { path: '', component: FrostyHomeComponent, pathMatch: 'full' },
-  { path: 'login', component: FrostyLoginComponent,  pathMatch: 'full' },
-  { path: 'registration', component: FrostyRegistrationComponent,  pathMatch: 'full' },
-  { path: '**', component: FrostyErrorPageComponent,  pathMatch: 'full' }
+  { path: 'home', component: FrostyHomeComponent },
+  { path: 'login', component: FrostyLoginComponent },
+  { path: 'registration', component: FrostyRegistrationComponent },
+  { path: '**', component: FrostyErrorPageComponent }
 ];
 
 @NgModule({
